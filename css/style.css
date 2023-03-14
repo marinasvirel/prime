@@ -1,0 +1,56 @@
+@import url("../fonts/fonts.css");
+@import url("root.css");
+@import url("reset.css");
+@import url("global.css");
+
+body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: var(--black);
+}
+
+.prime {
+  margin-bottom: 20px;
+}
+
+.prime-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.prime-img {
+  position: relative;
+  background-image: url("../img/decor/avatar.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.prime-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.prime-text-box {
+  display: flex;
+  align-items: center;
+}
+
+.prime-heading {
+  margin-bottom: 10px;
+}
+
+.prime-title {
+  margin-bottom: 10px;
+}
+
+.prime-text {
+  max-width: 652px;
+  line-height: 150%;
+}
