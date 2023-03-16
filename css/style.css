@@ -83,6 +83,10 @@ body {
     min-height: 300px;
     padding-top: 0;
   }
+
+  .prime-text-box{
+    text-align: center;
+  }
 }
 
 /*///////////////// .panel /////////////////////*/
